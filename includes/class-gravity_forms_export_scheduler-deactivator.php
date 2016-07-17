@@ -3,11 +3,11 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
- * @since      1.0.0
+ * @link       https://github.com/tprinty/gravity_forms_export_scheduler
+ * @since      0.0.1
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Gravity Forms Export Scheduler
+ * @subpackage gravity_forms_export_scheduler/includes
  */
 
 /**
@@ -15,12 +15,12 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @since      0.0.1
+ * @package    Gravity Forms Export Scheduler
+ * @subpackage gravity_forms_export_scheduler/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Deactivator {
+class gravity_forms_export_scheduler_Deactivator {
 
 	/**
 	 * Short Description. (use period)

@@ -3,11 +3,10 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://example.com
- * @since      1.0.0
- *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin
+ * @link              https://github.com/tprinty/gravity_forms_export_scheduler
+ * @since             0.0.1
+ * @package           Gravity Forms Export Scheduler
+ * @subpackage        gravity_forms_export_scheduler/admin
  */
 
 /**
@@ -16,16 +15,16 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/admin
- * @author     Your Name <email@example.com>
+ * @package    gravity_forms_export_scheduler
+ * @subpackage gravity_forms_export_scheduler/admin
+ * @author     Tom Printy <tprinty@edisonave.com>
  */
-class Plugin_Name_Admin {
+class gravity_forms_export_scheduler_Admin {
 
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    0.0.1
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
@@ -34,7 +33,7 @@ class Plugin_Name_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    0.0.1
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -73,7 +72,7 @@ class Plugin_Name_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/plugin-name-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/gravity_forms_export_scheduler-admin.css', array(), $this->version, 'all' );
 
 	}
 
@@ -96,7 +95,7 @@ class Plugin_Name_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/plugin-name-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/gravity_forms_export_scheduler-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
 

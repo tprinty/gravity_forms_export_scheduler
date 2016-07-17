@@ -6,11 +6,11 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       http://example.com
- * @since      1.0.0
+ * @link       https://github.com/tprinty/gravity_forms_export_scheduler
+ * @since      0.0.1
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Gravity Forms Export Scheduler
+ * @subpackage gravity_forms_export_scheduler/includes
  */
 
 /**
@@ -19,12 +19,12 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @since      0.0.1
+ * @package    Gravity Forms Export Scheduler
+ * @subpackage gravity_forms_export_scheduler/includes
+ * @author     Tom Printy <tprinty@edisonave.com>
  */
-class Plugin_Name_i18n {
+class gravity_forms_export_scheduler_i18n {
 
 
 	/**

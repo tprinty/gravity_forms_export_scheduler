@@ -20,7 +20,7 @@
  * @subpackage Plugin_Name/public
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Public {
+class gravity_forms_export_scheduler_Public {
 
 	/**
 	 * The ID of this plugin.
